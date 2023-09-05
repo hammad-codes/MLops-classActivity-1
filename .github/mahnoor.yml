@@ -1,4 +1,4 @@
-name: Mahnoor Akhtar
+name: Mahnoor Akhtar app
 on:
   push:
     branches: [ "i200635" ]
