@@ -1,4 +1,6 @@
 from functions import divide
+from functions import add
+from functions import multiply
 
 
 def test_divide():
