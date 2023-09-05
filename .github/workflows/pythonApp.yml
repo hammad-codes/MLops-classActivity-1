@@ -1,4 +1,4 @@
-name: main
+name: i200468 Branch
 on:
   push:
     branches: [ "i200468" ]
