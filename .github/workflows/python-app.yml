@@ -5,9 +5,9 @@ name: i200635
 
 on:
   push:
-    branches: [ "i200635","20i-0864" ]
+    branches: [ "i200635"]
   pull_request:
-    branches: [ "i200635","20i-0864" ]
+    branches: [ "i200635"]
 
 permissions:
   contents: read
