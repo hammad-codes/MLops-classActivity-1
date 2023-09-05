@@ -1,7 +1,9 @@
 install:
-	pip install --upgrade pip&\
+	pip install --upgrade pip
 	pip install -r requirements.txt
+
 lint:
-	pylint --disable=C,R functions.py
+	flake8 functions.py test.py  # Specify the Python files to lint here
+
 test:
-	python -m pytest -vv --cov=functions test.py
+	pytest -vv --cov=functions test.py
