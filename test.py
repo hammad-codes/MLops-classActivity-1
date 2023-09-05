@@ -1,6 +1,10 @@
+from functions import divide
 from functions import add
 from functions import multiply
-from functions import divide
+
+
+def test_divide():
+    assert 2 == divide(4, 2)
 
 
 def test_add():
@@ -9,7 +13,3 @@ def test_add():
 
 def test_multiply():
     assert 4 == multiply(2, 2)
-
-
-def test_divide():
-    assert 1 == divide(2, 2)
