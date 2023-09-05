@@ -1,4 +1,4 @@
-name: Mahnoor Akhtar 9015
+name: Mahnoor Akhtar
 on:
   push:
     branches: [ "i200635" ]
